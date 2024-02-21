@@ -9,6 +9,12 @@ body {
     margin: 10%;
     text-align: justify;
     zoom: 150%;
+    line-height: 1.8em;
+    font-family: Inter, sans-serif;
+    letter-spacing: -.014em;
+    font-size: 18px;
+    background: #f8f9fa;
+    text-transform: none;
 }
 
 a {
@@ -34,8 +40,4 @@ a {
 
 .description {
     font-style: italic;
-}
-
-h2 {
-    font-family: 'Times New Roman', Times, sans-serif;
 }
