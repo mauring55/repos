@@ -1,3 +1,10 @@
+/* 
+body - all elements were justified and has a minimal margin
+a - the source links were originally color blue, changed to black with a little bolder format
+.recipe-pic - centered with some border lines.
+h2 - for some reason, class calling wont work. So I settled with just having all h2 with the 
+        same font and style
+*/
 body {
     margin: 10%;
     text-align: justify;
@@ -27,4 +34,8 @@ a {
 
 .description {
     font-style: italic;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, sans-serif;
 }
