@@ -20,6 +20,8 @@ h2 - for some reason, class calling wont work. So I settled with just having all
 
 
 .title {
+    line-height: 1em;
+    margin: 0 0 10px 0;
     display: block;
     text-align: center;
     font-weight: 900;
