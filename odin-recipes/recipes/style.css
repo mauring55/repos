@@ -42,9 +42,9 @@ a:hover {
 }
 
 .recipe-pic {
+    background-color: aquamarine;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 20px auto;
     width: 80%;
     border-radius: 10px;
     border: 2px solid rgb(134, 88, 165);
@@ -52,10 +52,16 @@ a:hover {
 }
 
 .article-header {
+    background-color: aquamarine;
+    margin: 0px 0px 20px 0px;
+    display: inline-block;
     color: rgb(134, 88, 165);
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 5px;
 }
 
-.article-header .description {
+.article .description {
     font-style: italic;
 }
 
