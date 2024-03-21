@@ -1,0 +1,179 @@
+*  {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header-container {
+    display: flex;
+    padding: 10px 120px 80px 120px;
+    flex-direction: column;   
+    background-color: rgb(0,61,165, 0.4);
+}
+
+.header-container .header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header .header-right {
+    display: flex;
+    margin-left: auto;
+    gap: 2em;
+}
+
+.header .header-left {
+    font-weight: 700;
+}
+
+.hero-message {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.hero-quote {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 2;
+    gap: 1em;
+}
+
+.hero-pic {
+    display: flex;
+    max-width: 700px;
+}
+
+.hero-right {
+    display: flex;
+    flex: initial;
+}
+
+.sign-up-button {
+    padding: 0.5em 2em;
+    background-color: aliceblue;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.exhibit-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 120px;
+    gap: 2em;
+    background-color: aliceblue;
+}
+
+.exhibit-title {
+    display: flex;
+    font-size: 3em;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.exhibits {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    gap: 1em;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.values .core-value {
+    font-weight: 900;
+    font-size: 1.5em;
+    flex: 2;
+}
+
+.values-desc {
+    display: flex;
+    flex: 4;
+}
+
+.values-pic {
+    height: 200px;
+    width: 200px;
+    border: 3px solid burlywood;
+    border-radius: 1em ;
+}
+
+.quote-container {
+    padding: 50px 120px 80px 120px;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40ch;
+    gap: 1.5em;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+}
+
+.quote-name {
+    display: flex;
+    align-self: flex-end;
+}
+
+.enlist-container {
+    margin: 5em 10em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    background-color: salmon;
+    border-radius: 0.4em;
+}
+
+.enlist-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.enlist-header {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.enlist-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 3em;
+}
