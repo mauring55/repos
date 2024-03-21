@@ -110,6 +110,7 @@ body {
 .values-desc {
     display: flex;
     flex: 4;
+    max-width: 40ch;
 }
 
 .values-pic {
